@@ -1,0 +1,342 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: url("bkground2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 0 0px;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+header {
+    background: url("bkground2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 0 0px;
+    padding: 5px 0;
+    text-align: center;
+}
+nav {
+    background-color: #3498db;
+    padding: 10px;
+    text-align: center;
+    
+}
+.centered {
+    text-align: center;
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #e74c3c;
+}
+.cta-buttons {
+    text-align: center;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #2980b9;
+}
+main {
+    padding: 20px;
+}
+h1, h2, h3 {
+    color: #333;
+}
+.centered h1{
+    color: #fff;
+}
+.centered li{
+    text-align: center;
+}
+p {
+    color: #fff;
+}
+ol {
+    list-style-position: inside; /* Ensures the numbers are within the list */
+    text-align: center; /* Centers the content, including the numbers */
+    padding-right: 50px;
+}
+
+ol li {
+    text-align: left; /* Aligns the text within list items to the left */
+}
+/* signup sumbit */
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: url("bkground2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 0 0px;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+/* Additional Styles for Success Message */
+.success-message {
+    background-color: #4CAF50;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Additional Styles for Error Message */
+.errors {
+    background-color: #f44336;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.errors p {
+    margin-bottom: 10px;
+}
+.errors ul {
+    list-style: none;
+    padding: 0;
+}
+.errors li {
+    margin-bottom: 5px;
+}
+
+.btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: #2980b9;
+}
+body {
+    background: url("bkground2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 0 0px;
+    overflow: auto;
+}
+.main-app {
+    margin: 0 auto;
+    background: url("bkground2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 0 0px;
+    width: 900px;
+    height: 900px;
+    padding: 5px;
+    border-radius: 3px;
+}
+.image-container {
+    display: inline-block;
+    width: 500px;
+    background: #fff;
+    overflow: auto;
+}
+.hangman-image {
+    width: 80%;
+    display: inline-block;
+}
+.game-status {
+    color: #0DFF00;
+    font-size: 35px;
+    font-weight: bold;
+}
+.game-status-lost {
+    color: #FF0000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.info-container {
+    float: right;
+    display: inline;
+    vertical-align: top;
+    overflow: auto;
+}
+.letter-buttons button {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.letter-buttons button:hover {
+    background-color: #3498db;
+}
+.restart-button {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.restart-button:hover {
+    background-color: #2980b9;
+}
+.current-guesses {
+    margin-top: 20px;
+    padding: 15px;
+    color:#fff;;
+}
+.current-guess {
+    font-size: 35px;
+    border-bottom: 3px solid #000;
+    margin-right: 5px;
+}
+/* Styles for Login and Register Pages */
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(89, 171, 196, 0.1);
+    overflow: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(46, 101, 211);
+    border-radius: 5px;
+    overflow: auto;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #05ecfd;
+}
+
+/* Header and Footer Styles */
+footer {
+    background: url("bkground2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 0 0px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Contact and About Page Styles */
+
+#contact,
+#about {
+    margin-top: 40px;
+    overflow: auto;
+}
+
+#contact h2,
+#about h2 {
+    color: #e74c3c;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+#contact form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about p {
+    color: #333;
+    line-height: 1.5;
+}
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+.contact-form input,
+.contact-form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
